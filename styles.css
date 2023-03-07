@@ -40,15 +40,19 @@ footer {
  display: inline-block;
 }
 
-@media (max-width: 574px) {
+@media (max-width: 768px) {
 
   h1 {
+    color: #393E46;
   font-size: 3rem;
 }
   img {
     position: static;
     width: 40%;
 
+  }
+  footer {
+    font-size: 1.4rem;
   }
 }
 
