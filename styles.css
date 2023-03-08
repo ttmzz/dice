@@ -54,3 +54,32 @@ footer {
   }
 }
 
+.buttom {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.btn {
+  -webkit-border-radius: 21;
+  -moz-border-radius: 21;
+  border-radius: 21px;
+  -webkit-box-shadow: 1px 2px 3px #232931;
+  -moz-box-shadow: 1px 2px 3px #232931;
+  box-shadow: 1px 2px 3px #232931;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ff0000;
+  padding: 10px 20px 10px 20px;
+  border: solid #232931 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0e9e4d;
+  text-decoration: none;
+}
+
+.btn:active {
+  box-shadow: none;
+}
